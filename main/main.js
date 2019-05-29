@@ -2,6 +2,12 @@ module.exports = function main(inputs) {
     // write your code here...
 var dis = arguments[0];
 var time = arguments[1];
+if(isNaN(dis)){
+   return NaN;
+}
+if(isNaN(time)){
+   return NaN;
+}
 var disp = 0.0;
 var timep = 0.0;
 var price = 0.0;
